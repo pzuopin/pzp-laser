@@ -21,8 +21,8 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "paths": {
-      "laser-utils": ["./packages/utils/src"],
-      "laser-utils/dist/*": ["./packages/utils/src/*"]
+      "pzp-laser-utils": ["./packages/utils/src"],
+      "pzp-laser-utils/dist/*": ["./packages/utils/src/*"]
     },
   },
   "include": [

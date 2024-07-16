@@ -1,4 +1,4 @@
-import { DateTime } from "laser-utils";
+import { DateTime } from "pzp-laser-utils";
 import ReactDOM from "react-dom";
 
 const App = () => {

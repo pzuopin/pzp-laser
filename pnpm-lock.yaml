@@ -74,7 +74,7 @@ importers:
       ahooks:
         specifier: 3.7.8
         version: 3.7.8(react@17.0.2)
-      laser-utils:
+      pzp-laser-utils:
         specifier: 'workspace: *'
         version: link:../utils
       react:

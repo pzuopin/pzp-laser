@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "bootstrap": "pnpm install --frozen-lockfile",
-    "dev:react": "pnpm --filter laser-react run dev",
-    "build:react": "pnpm --filter laser-react run build",
+    "dev:react": "pnpm --filter pzp-laser-react run dev",
+    "build:react": "pnpm --filter pzp-laser-react run build",
     "clear": "rm -rf ./**/node_modules/",
     "lint-es": "eslint --fix --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore .",
     "lint-style": "stylelint \"**/*.{css,scss,sass}\" --fix --ignore-path .gitignore"
