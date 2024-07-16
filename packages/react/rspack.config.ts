@@ -29,7 +29,7 @@ const config: Configuration = {
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
-      "mono-utils": path.resolve(__dirname, "../utils/src"),
+      "laser-utils": path.resolve(__dirname, "../utils/src"),
     },
   },
   builtins: {

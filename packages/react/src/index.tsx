@@ -1,4 +1,4 @@
-import { DateTime } from "mono-utils";
+import { DateTime } from "laser-utils";
 import ReactDOM from "react-dom";
 
 const App = () => {

@@ -1,25 +1,25 @@
 {
-  "name": "rspack-mono-template",
+  "name": "pzp-laser",
   "version": "1.0.0",
   "scripts": {
     "bootstrap": "pnpm install --frozen-lockfile",
-    "dev:react": "pnpm --filter mono-react run dev",
-    "build:react": "pnpm --filter mono-react run build",
+    "dev:react": "pnpm --filter laser-react run dev",
+    "build:react": "pnpm --filter laser-react run build",
     "clear": "rm -rf ./**/node_modules/",
     "lint-es": "eslint --fix --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore .",
     "lint-style": "stylelint \"**/*.{css,scss,sass}\" --fix --ignore-path .gitignore"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/WindrunnerMax/ReactRspackTemplate"
+    "url": "https://github.com/pzuopin/pzp-laser"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/WindrunnerMax/ReactRspackTemplate/issues"
+    "url": "https://github.com/pzuopin/pzp-laser/issues"
   },
-  "homepage": "https://github.com/WindrunnerMax/ReactRspackTemplate",
+  "homepage": "https://github.com/pzuopin/pzp-laser",
   "devDependencies": {
     "@types/jest": "29.4.0",
     "@types/node": "20.11.10",

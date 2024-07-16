@@ -21,8 +21,8 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "paths": {
-      "mono-utils": ["./packages/utils/src"],
-      "mono-utils/dist/*": ["./packages/utils/src/*"]
+      "laser-utils": ["./packages/utils/src"],
+      "laser-utils/dist/*": ["./packages/utils/src/*"]
     },
   },
   "include": [
